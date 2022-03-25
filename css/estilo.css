@@ -1,6 +1,26 @@
 body{
     background-color: 		#778899;
 }
+
+.img_topo{
+    width: 100%;
+}
+.img_corpo{
+    width: 35%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
 figure{
     text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    font-size: 1.5rem;
 }
