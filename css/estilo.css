@@ -26,3 +26,15 @@ p{
     text-align: justify;
     text-indent: 40px;
 }
+.botao{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 2rem ;
+}
+.parag_letras p{
+    font-size: 1rem;
+
+}
+.fundo_letras{
+    background-image: linear-gradient(to bottom right, #112f4d, rgb(255, 255, 255));
+}
