@@ -28,6 +28,7 @@ p{
     font-size: 1.5rem;
     text-align: justify;
     text-indent: 40px;
+    padding: 1%;
 }
 .botao{
     padding-top: 15px;
@@ -40,4 +41,15 @@ p{
 }
 .fundo_letras{
     background-image: linear-gradient(to bottom right, #112f4d, rgb(255, 255, 255));
+    padding: 1%;
+}
+.menu{
+    padding: 2%;
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+.itens_menu{
+    line-height: 1.5;
 }
