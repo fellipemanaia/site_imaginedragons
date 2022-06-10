@@ -80,7 +80,7 @@ footer p{
     text-decoration: none;
 }
 .itens_menu a:visited{
-    color:orange ;
+    color:rgb(255, 0, 0) ;
     text-decoration: none;
 }
 .itens_menu a:hover{
@@ -89,7 +89,7 @@ footer p{
 
 }
 .itens_menu a:active{
-    color:red ;
+    color:rgb(255, 115, 0) ;
     text-decoration: underline;
 }
 section a:link{
@@ -98,14 +98,14 @@ section a:link{
 }
 section a:visited{
     text-decoration: none;
-    color:orange ;
+    color:rgb(255, 0, 0) ;
 }
 section a:hover{
     color:mediumturquoise ;
     text-decoration: underline;
 }
 section a:active{
-    color:red ;
+    color:rgb(255, 115, 0) ;
     text-decoration: underline;
 }
 .escondido{
@@ -132,4 +132,7 @@ footer{
   text-align: center;  
   padding-top: 3%; 
   font-size: 20rem;
+}
+.img_logo{
+    width: 70%;
 }
