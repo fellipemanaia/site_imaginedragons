@@ -136,3 +136,20 @@ footer{
 .img_logo{
     width: 70%;
 }
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+  }
+  
+  td{
+    font
+  }
+  
+  td,th{
+    border: 5px inset #8B0000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+  }
+  
