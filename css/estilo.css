@@ -30,11 +30,13 @@ p{
     text-align: justify;
     text-indent: 40px;
     padding: 1%;
+    font-family: 'Kalam', cursive;
 }
 .botao{
     padding-top: 15px;
     text-align: center;
     font-size: 2rem ;
+    font-family: 'Cookie', cursive;
     
 }
 .parag_letras p{
@@ -54,12 +56,14 @@ p{
 h1{
     text-align: center;
     font-size: 2em;
+    font-family: 'Edu QLD Beginner', cursive;
 }
 h2{
     margin-top: 2%;
     margin-bottom: 2%;
     text-align: center;
     font-size: 1.8rem;
+    font-family: 'Edu QLD Beginner', cursive;
 }
 .itens_menu{
     line-height: 1.5;
