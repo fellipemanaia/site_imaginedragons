@@ -146,14 +146,25 @@ table{
     margin-top: 2%;
   }
   
-  td{
-    font
-  }
-  
-  td,th{
-    border: 5px inset #8B0000;
+td,th{
+    border: 2px dotted #8B0000;
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
+    
   }
   
+  td:first-child{
+    width: 40%;
+  }
+  
+  td:first-child + td{
+    width: 60%;
+  }
+  
+  audio::-webkit-media-controls-panel{
+    background-color:rgba(2, 30, 83, 0.3) !important;
+    }
+audio{
+    width: 80%;
+   }
