@@ -172,53 +172,66 @@ audio{
   
   
   /*CSS do contato*/
-   input[type=text], select, textarea, input[type=tel], input[type=email] {
-    width: 95%;
-    padding: 12px;
-    border-radius: 4px;
-    resize: vertical;
+  .borda_form{
+    background-color: rgba(30, 44, 80, 0.3) ;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 1%;
+    box-sizing: border-box;
+    font-family: 'Edu QLD Beginner', cursive;
   }
-  
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-family: 'Edu QLD Beginner', cursive;
   }
-  
+
+  input[type=text], select, textarea, input[type=tel], input[type=email] {
+    width: 96%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    resize: vertical;
+    font-family: 'Edu QLD Beginner', cursive;
+  }
+ 
+
+.col-25{
+  width: 25%;
+  float: left;
+  margin-top: 6px;
+
+}
+
+.col-75{
+width: 75%;
+float: left;
+margin-top: 6px;
+}
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   input[type=submit] {
+    background-color: rgb(29, 58, 95);
+    color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     float: right;
   }
-  
-  .col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
+  .botaoform{
+    margin-top: 3%;
   }
   
-  .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-  }
   
- .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width:450px) {
+
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
+     
     }
-  }
-  .borda_form {
-    border-radius: 5px;
-    padding: 20px;
-    background-color: #414950;
-    margin-bottom: 12px;
-    margin-top: 8px;
-  }
+}
