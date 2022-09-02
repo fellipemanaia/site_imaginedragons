@@ -32,6 +32,21 @@ p{
     padding: 1%;
     font-family: 'Kalam', cursive;
 }
+
+header{
+ top: 0; 
+ position: relative;
+ right: 0;
+ left: 0;  
+ background-color: #3c4853;
+}
+.fixo{
+ position: fixed;
+}
+.banner{
+ margin-top: 30%;
+}
+
 .botao{
     padding-top: 15px;
     text-align: center;
@@ -65,53 +80,56 @@ h2{
     font-size: 1.8rem;
     font-family: 'Edu QLD Beginner', cursive;
 }
-.itens_menu{
-    line-height: 1.5;
-    text-align: center;
-    font-size: 1.5rem;
-}
 .logo{
     padding-top: 1%;
     padding-bottom: 1%;
-    font-size: 1.7rem;
+    font-size: 1rem;
 }
 footer p{
     font-size: 1.5rem;
     text-align: center;
 }
-.itens_menu a:link{
-    color: darkgreen;
-    text-decoration: none;
-}
-.itens_menu a:visited{
-    color:rgb(255, 0, 0) ;
-    text-decoration: none;
-}
-.itens_menu a:hover{
-    color:mediumturquoise ;
-    text-decoration: underline;
-
-}
-.itens_menu a:active{
-    color:rgb(255, 115, 0) ;
-    text-decoration: underline;
-}
+.itens_menu{
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+.itens_menu a{
+    font-size: 1.2em;
+  }
+  
+.itens_menu a:link, .itens_menu a:visited{ 
+      color: #fff;
+      text-decoration: none;
+    }  
+    /* mouse over link */
+.itens_menu a:hover {
+      color: #fff;
+      padding: 0.8%;    
+      background-color: rgba(128, 128, 128, 0.3); 
+      text-decoration: none;
+      border-radius: 15%;
+  
+    }
+    
+    /* selected link */
+.itens_menu a:active {
+      color: #FFF;
+      text-decoration: none;
+    }
+  
 section a:link{
-    color:darkgreen ;
-    text-decoration: none;
-}
-section a:visited{
-    text-decoration: none;
-    color:rgb(255, 0, 0) ;
-}
+    color: #696969;
+  }
+  
+section a:visited {
+    color: #FFF; 
+  }
+  
 section a:hover{
-    color:mediumturquoise ;
-    text-decoration: underline;
-}
-section a:active{
-    color:rgb(255, 115, 0) ;
-    text-decoration: underline;
-}
+    color: #696969;
+  }
+  
 .escondido{
     display: none;
 }
@@ -138,7 +156,7 @@ footer{
   font-size: 20rem;
 }
 .img_logo{
-    width: 70%;
+    width: 40%;
 }
 table{
     border-collapse: collapse;
