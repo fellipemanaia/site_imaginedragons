@@ -33,15 +33,19 @@ p{
     font-family: 'Kalam', cursive;
 }
 
-header{
- top: 0; 
+header{ 
  position: relative;
- right: 0;
- left: 0;  
  background-color: #3c4853;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .fixo{
- position: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 .banner{
  margin-top: 30%;
@@ -79,11 +83,6 @@ h2{
     text-align: center;
     font-size: 1.8rem;
     font-family: 'Edu QLD Beginner', cursive;
-}
-.logo{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-size: 1rem;
 }
 footer p{
     font-size: 1.5rem;
@@ -245,11 +244,46 @@ margin-top: 6px;
   }
   
   
-  @media screen and (max-width:450px) {
+  @media screen and (max-width:600px) {
 
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
-     
+    
     }
+    .banner{
+      margin-top: 48%;
+    }
+    .logo{
+      padding-top: 1%;
+      padding-bottom: 1%;
+      font-size: 1rem;
+      text-align: center;
+      width: 88%;
+  }
+}
+@media screen and (min-width:601px) {
+  header{
+    flex-direction: row;
+  }
+  .itens_menu{
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    width: 60%;
+  }
+  .itens_menu ul li {
+    display: inline;
+    margin-left: 1%;
+  }
+  .banner{
+    margin-top: 8%;
+  }
+  .logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1rem;
+    width: 40%;
+    margin-left: 1%;
+  }
 }
