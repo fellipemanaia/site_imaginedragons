@@ -271,6 +271,17 @@ margin-top: 6px;
       text-align: center;
       width: 88%;
   }
+  .containermusica{
+    line-height: 250%;
+    margin-top: 56%;
+  }
+  .parag_letras{
+    line-height: 150%;
+    margin-top: 60%;
+  }
+  .containercontato{
+    margin-top: 50%;
+  }
 }
 @media screen and (min-width:601px) {
   header{
