@@ -32,7 +32,16 @@ p{
     padding: 1%;
     font-family: 'Kalam', cursive;
 }
-
+.containercontato{
+  width: 80%;
+  margin: auto;
+  margin-top: 8%;  
+}
+.containermusica{
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;  
+}
 header{ 
  position: relative;
  background-color: #3c4853;
